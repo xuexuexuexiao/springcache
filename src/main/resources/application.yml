@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/spring_cache?useUnicode=true&characterEncoding=UTF-8&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+  security:
+    user:
+      name: sa
+      password: 123
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  com.example.demo.mappper: info
+debug: true
+
+
+
+
+
